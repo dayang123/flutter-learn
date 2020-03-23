@@ -10,6 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Welcome to Flutter',
+      theme: new ThemeData(        // 创建整个应用的主题
+        brightness: Brightness.light,
+        primaryColor: Colors.lightBlue,
+        accentColor: Colors.amber
+      ),
       home: HomePage(),
       routes: {'/page_a':(_) => APage(), '/page_b':(_) => BPage()},
     );
