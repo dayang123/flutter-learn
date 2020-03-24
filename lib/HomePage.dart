@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget{
           RaisedButton(onPressed:() {Navigator.pushNamed(context, '/page_a');}, child: Text("Go to Page A")),
           RaisedButton(onPressed:() {Navigator.pushNamed(context, "/page_b");}, child: Text("Go to Page B")),
           RaisedButton(onPressed: (){Navigator.pushNamed(context, '/page_c');}, child: Text("Go to list page"),),
+          RaisedButton(onPressed: (){Navigator.pushNamed(context, '/drawer');}, child: Text("ride的侧边栏"),),
           RaisedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (_) => BPage()));},child: Text("Go to Page B by route "),),
 //          Theme(      // 创建某个组件的主题
 //          data: new ThemeData(accentColor: Colors.green, primaryColor: Colors.white, brightness: Brightness.light),
