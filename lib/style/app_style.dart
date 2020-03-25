@@ -37,6 +37,10 @@ class AppColors {
 
   static const Color colorValue_8497a4 = Color(0xFF8497a4);
   static const Color colorValue_eef4f8 = Color(0xFFeef4f8);
+  static const Color colorValue_fff1f0 = Color(0xFFF1F0);
+  static const Color colorValue_ffa39d= Color(0xFFFFA39D);
+  static const Color colorValue_fa541c= Color(0xFFFA541C);
+  static const Color colorValue_29303a= Color(0xFF29303A);
 }
 
 class AppTextSize {

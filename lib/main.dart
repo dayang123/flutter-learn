@@ -21,8 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/page_a':(_) => APage(),
         '/page_b':(_) => BPage(),
-        '/page_c':(_) => ListPage(),
-        '/drawer':(_) => DrawerPage()}
+        '/page_c':(_) => ListPage()}
     );
   }
 }
